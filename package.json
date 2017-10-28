@@ -1,0 +1,35 @@
+{
+  "name": "webpack-for-es6",
+  "version": "1.0.0",
+  "description": "Setup local environment for ES6 or ES2015 with webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --env.dev",
+    "server": "webpack --watch & webpack-dev-server  --watch  --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techinventives/webpack-for-es6.git"
+  },
+  "keywords": [
+    "webpack",
+    "ES6",
+    "ES2015"
+  ],
+  "author": "Ronit Mukherjee <techinventives>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techinventives/webpack-for-es6/issues"
+  },
+  "homepage": "https://github.com/techinventives/webpack-for-es6#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-loader": "^1.9.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}

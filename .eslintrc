@@ -1,0 +1,26 @@
+{
+    "rules": {
+      "block-scoped-var": 2,
+      "curly": [2,"all"],
+      "eqeqeq": [2,"smart"],
+      "guard-for-in": 2,
+      "no-else-return": 2,
+      "no-lone-blocks": 2,
+      "no-loop-func": 2,
+      "no-multi-str": 2,
+      "no-label-var": 2,
+      "no-undef-init": 2,
+      "no-undefined": 2,
+      "no-unused-vars": 2,
+      "no-use-before-define": [2,"nofunc"],
+      "camelcase": [2,{"properties":"always"}],
+      "func-names": 2,
+      "key-spacing": [2,{"align":"colon","afterColon":true}],
+      "no-trailing-spaces": [2,{"skipBlankLines":true}],
+      "arrow-parens": [2,"as-needed"],
+      "arrow-spacing": [2,{"before":true,"after":true}],
+      "constructor-super": 2,
+      "object-shorthand": [2,"always"],
+      "prefer-const": 2
+    }
+  }
